@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="OPTIC Valorant.css">
+    <link rel="shortcut icon" href="IMAGES/optic-gaming-white-logo.png">
+    <title>OPTIC Valorant</title>
+</head>
+
+<body>
+
+    <div class="navArea">
+
+        <nav>
+            <img src="IMAGES/optic-gaming-white-logo.png" width="162" class="OPLogo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="subPages/aboutOPTIC.html">ABOUT</a></li>
+                <li><a href="subPages/players.html">PLAYERS</a></li>
+                <li><a href="subPages/achivements.html">ACHIEVEMENTS</a></li>
+            </ul>
+
+        </nav>
+
+
+    </div>
+
+    <div id="video-container">
+        <div>
+            <video autoplay loop muted>
+                <source src="IMAGES/OPTIC-VID.mp4">
+            </video>
+        </div>
+
+    </div>
+
+    <div class="greenwall">
+        <h1>HOME OF THE
+            <h1 id="greenofwall">GREENWALL</h1>
+        </h1>
+    </div>
+
+    <div class="line-container">
+
+        <div class="optIMG">
+
+            <img id="optFimg" src="IMAGES/optimg.png" alt="">
+
+        </div>
+
+        <div class="nrgsocialtags">
+
+            <h1 id="nrgsocialsname">OPTIC SOCIALS</h1>
+
+            <ul>
+                <li><a href="https://twitter.com/optic">Twitter</a></li>
+                <li><a href="https://www.instagram.com/opticgaming">Instagram</a></li>
+                <li><a href="https://www.tiktok.com/@opticgaming">TikTok</a></li>
+                <li><a href="https://discord.com/invite/optic">Discord</a></li>
+                <li><a href="https://www.youtube.com/opticcraft">YouTube</a></li>
+                <li><a href="https://facebook.com/opticnation">Facebook</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+
+    <div class="line2-container">
+
+        <div class="inspire">
+            <h3>INSPIRATIONS</h3>
+
+            <ul>
+                <li><a target="_blank" href="https://www.nrg.gg/">NRG</a></li>
+                <li><a target="_blank" href="https://www.youtube.com/@GreatStackDev">GREATSTACK</a></li>
+                <li><a target="_blank" href="https://opticgaming.com/">OPTIC</a></li>
+                <li><a target="_blank" href="youtube.com/@BroCodez/featured">BROCODE</a></li>
+            </ul>
+
+
+
+        </div>
+
+        <div class="newsletter">
+
+            <h2 id="newslettertitle">Subscribe to our Newsletter</h2>
+
+            <form id="newsletterForm" action="subPages/FormResponse.html" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email4SignUp" name="email" required placeholder="EMAIL ADDRESS">
+                <input type="submit" id="signupButton" value="SIGN UP">
+
+            </form>
+
+            <script>
+                document.getElementById('newsletterForm').addEventListener('submit', function (event) {
+
+                    event.preventDefault();
+
+                    const email = document.getElementById('email4SignUp').value;
+
+                    window.location.href = 'subPages/FormResponse.html?email4SignUp=' + encodeURIComponent(email);
+                });
+            </script>
+
+        </div>
+
+    </div>
+
+    <div class="tribute-container">
+
+        <img src="IMAGES/optc-trophy.avif" alt="rofl">
+
+        <h1>Farewell Optic, The Greatest Ever</h1>
+        <h2>2020 - 2022</h2>
+
+
+
+
+    </div>
+
+    <hr>
+
+
+    <div class="sponsor-container">
+
+        <ul>
+            <li><a target="_blank" href="https://www.childrens.com/"><img src="IMAGES/SPONSERS/childrens-health.svg"
+                        alt=""></a></li>
+            <li><a target="_blank" href="https://cordaroys.com/"><img src="IMAGES/SPONSERS/cordaroys_63cc4cd081560.svg"
+                        alt=""></a></li>
+            <li><a target="_blank" href="https://www.elgato.com/ww/en"><img src="IMAGES/SPONSERS/elgato.svg" alt=""></a>
+            </li>
+            <li><a target="_blank" href="https://www.favordelivery.com/"><img
+                        src="IMAGES/SPONSERS/favor_63ce000913ff8.png" alt=""></a></li>
+            <li><a target="_blank" href="https://www.jackinthebox.com/"><img src="IMAGES/SPONSERS/jack-in-the-box.svg"
+                        alt=""></a></li>
+            <li><a target="_blank" href="https://www.jacklinks.com/"><img src="IMAGES/SPONSERS/jack-links.png"
+                        alt=""></a></li>
+            <li><a target="_blank" href="https://www.mountaindew.com"><img src="IMAGES/SPONSERS/mtn dew.png" alt=""></a></li>
+            <li><a target="_blank" href="https://www.oakley.com/en-us"><img src="IMAGES/SPONSERS/oakley.svg" alt=""></a>
+            </li>
+            <li><a target="_blank" href="https://www.razer.com/"><img src="IMAGES/SPONSERS/razer.svg" alt=""></a></li>
+            <li><a target="_blank" href="https://scufgaming.com/"><img src="IMAGES/SPONSERS/scuf.svg" alt=""></a></li>
+            <li><a target="_blank" href="https://www.wingstop.com.sg"><img src="IMAGES/SPONSERS/wingstop_63d8521f5bbf4.png"
+                        alt=""></a></li>
+
+        </ul>
+
+    </div>
+
+
+    </div>
+
+    <div class="copyright">
+        <img src="IMAGES/optic-wordmark-white-bottom.svg" alt="">
+        <p>COPYRIGHT © 2023 OPTIC GAMING INQUIRIES</p>
+    </div>
+
+
+</body>
+
+</html>

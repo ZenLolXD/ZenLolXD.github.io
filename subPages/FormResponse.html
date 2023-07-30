@@ -1,0 +1,117 @@
+<!-- HTML 2 -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Response</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .navArea {
+            width: 100%;
+            height: auto;
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        nav {
+            background-color: #070707;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            z-index: 20;
+        }
+
+        nav img {
+            width: 140px;
+            padding-left: 10px;
+        }
+
+        nav ul {
+            margin-left: 700px;
+        }
+
+        nav ul li {
+            padding: 10px;
+            display: inline-block;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+
+        }
+
+        nav ul li a:hover {
+            color: gray;
+        }
+
+        h2 {
+            margin-top: 150px;
+            color: white;
+            font-size: 100px;
+        }
+
+        a {
+            font-size: 100px;
+            text-decoration: none;
+            text-align: center;
+            color:#9dc73b ;
+
+        }
+
+        a:hover {
+            color: gray;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="navArea">
+
+        <nav>
+            <img src="../IMAGES/optic-gaming-white-logo.png" width="162" class="OPLogo">
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../subPages/aboutOPTIC.html">ABOUT</a></li>
+                <li><a href="../subPages/players.html">PLAYERS</a></li>
+                <li><a href="../subPages/achivements.html">ACHIEVEMENTS</a></li>
+            </ul>
+
+        </nav>
+
+
+    </div>
+
+
+    <h2>Thank you for Signing Up!</h2>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const email = urlParams.get('email4SignUp');
+
+        if (email) {
+
+            document.write('<h2 style="font-size: 50px; color: white;">Email entered: ' + decodeURIComponent(email) + '</h2>');
+        } else {
+            document.write('<h2>No email provided.</h2>');
+        }
+    </script>
+
+    <a href="../index.html">BACK</a>
+</body>
+
+</html>

@@ -1,0 +1,247 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: IntegralCF, Impact, sans-serif;
+    overflow-x: hidden;
+}
+
+
+body {
+    background-color: black;
+}
+
+
+.navArea {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    background-color: #070707;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    z-index: 20;
+}
+
+nav img {
+    width: 140px;
+    padding-left: 10px;
+}
+
+nav ul {
+    margin-left: 700px;
+    
+}
+
+nav ul li {
+    padding: 20px;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: gray;
+}
+
+
+#video-container video {
+    position: relative;
+    margin-top: 25px;
+    left: 0;
+    width: 100%;
+}
+
+
+.greenwall h1 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+#greenofwall {
+    color: #9dc73b;
+    margin-bottom: 80px;
+}
+
+
+.line-container {
+    display: flex;
+}
+
+#nrgsocialsname {
+    font-size: 100px;
+    color:#9dc73b;
+    text-align: center;
+}
+
+.optIMG,
+.nrgsocialtags {
+    flex: 2;
+}
+
+.nrgsocialtags {
+    padding: 10px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.nrgsocialtags ul li {
+    font-size: 60px;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.nrgsocialtags ul li a {
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+}
+
+.nrgsocialtags ul li a:hover {
+    color: white;
+}
+
+#optFimg {
+    margin-left: 30px;
+    width: 90%;
+    height: auto;
+    border-style: double;
+    border-color: #9dc73b;
+    border-width: 5px;
+}
+
+
+.line2-container {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.inspire,
+.newsletter {
+    flex: 2;
+}
+
+.inspire {
+    color: white;
+    text-align: center;
+    background-color: #9dc73b;
+    padding-bottom: 10px;
+}
+
+.inspire h3 {
+    font-size: 80px;
+}
+
+.inspire ul li {
+    display: inline-block;
+}
+
+.inspire ul li a {
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(72, 70, 70);
+    margin: 10px;
+}
+
+.inspire ul li a:hover {
+    color: #070707;
+}
+
+#newslettertitle {
+    margin-top: 20px;
+    font-size: 55px;
+    text-align: center;
+    color: #9dc73b;
+}
+
+.newsletter {
+    background-color: white;
+    text-align: center;
+}
+
+.newsletter form {
+    padding: 20px;
+    font-size: 35px;
+}
+
+#email4SignUp {
+    width: 400px;
+    height: 35px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#signupButton {
+    width: 100px;
+    height: 50px;
+}
+
+.sponsor-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    padding: 10px;
+}
+
+.sponsor-container ul li {
+    display: inline-block;
+    width: 100px; 
+}
+
+.sponsor-container ul li a img {
+    width: 65px;
+    margin: 10px; 
+}
+
+.sponsor-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.tribute-container {
+    text-align: center;
+    margin: 100px;
+}
+
+.tribute-container img {
+    width: 75%;
+    height: auto;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+}
+
+.tribute-container h1 {
+    color: white;
+}
+
+.tribute-container h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #9dc73b;
+    font-size: 40px;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+}
